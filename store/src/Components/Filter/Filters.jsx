@@ -58,8 +58,8 @@ export const filters = [
         name: "Polo",
       },
       {
-        id: "Hoddie",
-        name: "Hoddie",
+        id: "Hoodie",
+        name: "Hoodie",
       },
       {
         id: "Basic",
