@@ -69,7 +69,7 @@ const ProductsList = (props) => {
       <Row>
         {filterProducts().length &&
           filterProducts().map((product) => (
-            <Col lg={4} md={6} xs={6} key={product.id}>
+            <Col lg={3} md={6} xs={6} key={product.id}>
               <ProductItem product={product} />
             </Col>
           ))}

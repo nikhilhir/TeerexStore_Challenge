@@ -10,11 +10,11 @@ const CartItem = (props) => {
   const [prod, setProd] = React.useState({});
   const quantityChangeHandler = (event) => {
     if (event.target.value < 1) {
-      // alert("cantbe lees than1")
+      
       setToast(true);
     } else {
       if (event.target.value > product.quantity) {
-        // console.log(product)
+        
         setProd(product);
         setQty(true);
       } else {
@@ -43,12 +43,12 @@ const CartItem = (props) => {
         <Toast.Body>Quanity can't be less than 1.</Toast.Body>
       </Toast>
       {/* {`${prod.name} is not available more than ${prod.quantity}`} */}
-      <Toast onClose={() => setQty(false)} autohide show={showQty} delay={2200}>
+      <Toast onClose={() => setQty(false)} autohide show={showQty} delay={2000}>
         <Toast.Header>
           <strong className="mr-auto">Warning</strong>
         </Toast.Header>
         <Toast.Body>
-          {" "}
+          
           {`${prod.name} is not available more than ${prod.quantity}`}
         </Toast.Body>
       </Toast>

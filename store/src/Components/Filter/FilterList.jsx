@@ -12,7 +12,7 @@ const FilterList = (props) => {
           <div key={filter.id}>
             <Card.Subtitle>
               <h5>
-                <strong>{filter.name}</strong>
+                <b>{filter.name}</b>
               </h5>
             </Card.Subtitle>
             <FilterListItems items={filter.items} group={filter.id} />

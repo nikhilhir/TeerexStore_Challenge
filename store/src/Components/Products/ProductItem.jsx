@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import { CartState } from "../../ContextApi/Context";
-// import { CartState } from "../../context/Context";
+
 
 const ProductItem = (props) => {
   const { product } = props;
@@ -28,7 +28,7 @@ const ProductItem = (props) => {
               <span>Rs. {product.price}</span>
             </Card.Subtitle>
           </Col>
-          <Col lg={7} md={12} className="text-right">
+          <Col lg={7} md={10} className="text-right">
             {cart.some((item) => item.id === product.id) ? (
               <Button
                 variant="danger"

@@ -1,7 +1,5 @@
-// import FilterBar from "./FilterBar/FilterBar";
-// import { filters } from "./FilterBar/filters";
+
 import SearchBar from "./SearchBar";
-// import ProductsList from "./ProductsList";
 import { Button, Col, Container, Overlay, Popover, Row } from "react-bootstrap";
 import { FaFilter } from "react-icons/fa";
 import { useRef, useState } from "react";

@@ -1,6 +1,6 @@
 import React from "react";
 import CartItemsList from "./CartitemList";
-// import CartItemsList from "./CartItemsList";
+
 
 const Cart = () => {
   return (

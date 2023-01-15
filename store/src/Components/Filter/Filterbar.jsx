@@ -1,9 +1,9 @@
-import { Button, Card } from "react-bootstrap";
+import {  Card } from "react-bootstrap";
 import FilterList from "./FilterList";
 
 const FilterBar = (props) => {
   return (
-    <Card className="bg-secondary text-light" style={{ fontSize: "120%" }}>
+    <Card className="bg-secondary text-light" style={{ fontSize: "100%" }}>
       <Card.Body>
         <Card.Title className="mb-3">
           <h4>Apply Filters</h4>
