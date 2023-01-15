@@ -1,0 +1,95 @@
+.Logo{
+
+    font-weight: bold;
+    color: white;
+    
+   
+}
+
+
+
+
+
+.prodImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cardPic {
+    border: 0.03rem solid grey;
+    margin-bottom: 0.5rem;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cartItemImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cartItemDet {
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.cartList {
+    min-width: 370;
+}
+
+.search {
+    width: 100%;
+}
+
+.searchMobile {
+    display: none !important;
+}
+
+.filters {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    height: 86vh;
+}
+
+.searchInput {
+    width: 50% !important;
+}
+
+@media (max-width: 771px) {
+    .main{
+        margin-top: 30%;
+    }
+    .search {
+        display: none !important;
+    }
+
+    .filterBar {
+        display: none !important;
+    }
+
+    .searchMobile {
+        
+        display: block !important;
+        
+    }
+
+    .searchInput {
+        width: 100% !important;
+    }
+}
